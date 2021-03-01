@@ -23,8 +23,6 @@ class ReqResEndToEndTests extends Simulation {
       .pause(1,5)
       .exec(PostRequests.createNewUser())
       .pause(1)
-      .exec(PostRequests.createNewUser())
-      .pause(2)
     }
 
   setUp(
