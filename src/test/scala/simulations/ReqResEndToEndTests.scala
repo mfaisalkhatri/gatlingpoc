@@ -27,8 +27,6 @@ class ReqResEndToEndTests extends Simulation {
       .pause(2)
     }
 
-
-
   setUp(
     scn.inject(
       nothingFor(5.seconds),
