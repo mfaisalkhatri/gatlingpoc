@@ -1,5 +1,6 @@
 package simulations
 
+import com.github.javafaker.Faker
 import io.gatling.http.Predef._
 import io.gatling.core.Predef._
 
@@ -7,14 +8,12 @@ import scala.util.Random
 
 object PostRequests {
 
-  val rnd = new Random()
-  def randomString(length: Int) = {
-    rnd.alphanumeric.filter(_.isLetter).take(length).mkString
-  }
+  private var faker = new Faker()
 
   val customFeeder = Iterator.continually(Map (
-    "name" -> ("Name "+ randomString(6)),
-    "job" -> ("Job " + randomString(4))
+
+    "name" -> faker.name().firstName(),
+    "job" -> faker.company().profession()
   ))
 
   def createNewUser () = {
