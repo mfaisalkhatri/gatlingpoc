@@ -1,3 +1,5 @@
+https://github.com/mfaisalkhatri/gatlingpoc/actions/workflows/main.yml/badge.svg
+
 ## :question: What is this Repository about?
 
 - This repo contains example codes for Performance testing using Gatling.
