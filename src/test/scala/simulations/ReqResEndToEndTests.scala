@@ -34,7 +34,7 @@ class ReqResEndToEndTests extends Simulation {
     ))
     .protocols(ReqResConfig.httpConf.inferHtmlResources())
     .maxDuration(testDuration.seconds)
-    .assertions(global.responseTime.max.lt(10),
+    .assertions(global.responseTime.max.lte(30 00),
       global.successfulRequests.percent.gt(95)
     )
 
