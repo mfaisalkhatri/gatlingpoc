@@ -6,6 +6,7 @@
 - Run Time Parameters: `USERS`, `RAMP_DURATION` and `DURATION` are used in the code.
 - To run the test from command line use the following command:
 - `mvn gatling:test -Dgatling.simulationClass=<Class Name to run test> -DUSERS<No of User> -DRAMP_DURATION<Ramp duration in seconds> -DDURATION<Total test duration in seconds>`
+
 E.g.: `mvn gatling:test -Dgatling.simulationClass=simulations.ReqResEndToEndTests -DUsers=20 -DRAMP_DURATION=10 -DDURATION=30`
 
 🧬 Need Assistance?
