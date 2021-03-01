@@ -3,6 +3,7 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)][home]
 ![Github Workflows](https://github.com/mfaisalkhatri/gatlingpoc/actions/workflows/main.yml/badge.svg)
+[![HitCount](http://hits.dwyl.com/mfaisalkhatri/gatlingpoc.svg)](http://hits.dwyl.com/mfaisalkhatri/gatlingpoc)
 
 </div>
 
