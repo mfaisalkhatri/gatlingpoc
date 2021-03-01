@@ -1,4 +1,11 @@
-https://github.com/mfaisalkhatri/gatlingpoc/actions/workflows/main.yml/badge.svg
+
+
+<div align="center">
+
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)][home]
+[!Github Workflows](https://github.com/mfaisalkhatri/gatlingpoc/actions/workflows/main.yml/badge.svg)
+
+</div>
 
 ## :question: What is this Repository about?
 
@@ -27,3 +34,4 @@ E.g.: `mvn gatling:test -Dgatling.simulationClass=simulations.ReqResEndToEndTest
 [mail]: mohammadfaisalkhatri@gmail.com
 [linkedin]: https://www.linkedin.com/in/faisalkhatri/
 [twitter]: https://twitter.com/mfaisal_khatri
+[home]: https://github.com/mfaisalkhatri/gatlingpoc
