@@ -1,9 +1,8 @@
 
-
-<div align="center">
+<div>
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)][home]
-[!Github Workflows](https://github.com/mfaisalkhatri/gatlingpoc/actions/workflows/main.yml/badge.svg)
+[![Github Workflows](https://github.com/mfaisalkhatri/gatlingpoc/actions/workflows/main.yml/badge.svg)
 
 </div>
 
